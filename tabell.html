@@ -260,20 +260,22 @@
 
         <legend>Kunduppgifter</legend> <hr/>
         <fieldset><label for= name>Förnamn:</label>
-             <input type="text"></fieldset>
+             <input type="text" required></fieldset>
         <fieldset><label for= name>Efternamn:</label>
-             <input type="text"></fieldset>
+             <input type="text" required></fieldset>
         <fieldset><label for= name>Gata:</label>
-             <input type="text"></fieldset>   
+             <input type="text" required></fieldset>   
         <fieldset><label for= name>Postnummer:</label>
              <input type="text" placeholder="xxxxx" class="zipcode"></fieldset>
         <fieldset><label for= name>Stad:</label>
-             <input type="text"></fieldset>
+             <input type="text" required></fieldset>
         <fieldset><label for= tel>Telefonnummer:</label>
-             <input type="tel" placeholder="(...för leverans-sms)"></fieldset>
+             <input type="tel" placeholder="(...för leverans-sms)" required></fieldset>
+             <br/>
+             <input type="submit" formaction="https://thepickapic.netlify.app/thanks">
+          
     </form>
-
-    <button class="orderDone"><a href="thanks.html"> Skicka beställning</a></button>
+    
 
     <p class="madeBy">Coded by Anette 🍄</p>
 </body>
