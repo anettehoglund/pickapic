@@ -134,11 +134,18 @@ footer{
 }
 
 .orderDetails img{
-    width: 50px;
-    height: 60px;
+    width: 65px;
+    height: 75px;
 }
 
-.frames, .products, .poster{
+.products{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+
+
+.frames, .poster{
     display: inline-block;
     margin: 0 auto;
     text-align: center;
