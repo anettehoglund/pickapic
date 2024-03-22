@@ -30,7 +30,6 @@ h1{
 }
 
 .logga2{
-    
     width: 250px;
     height: 150px;
     margin-top: 30px;
@@ -221,4 +220,32 @@ button:hover{
     cursor:pointer;
 }
 
+/*thanks*/
 
+.thanksContainer{
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 50px;
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.thanksContainer p{
+    text-align: center;
+}
+
+.thanks{
+    font-size: 50px;
+    text-align: center;
+}
+
+.package{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height:280px;
+    
+}
