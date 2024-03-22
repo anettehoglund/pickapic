@@ -205,20 +205,20 @@ input{
     max-width: 6ch;
 }
 
-button{
+
+.orderButton{
     display: block;
     margin: 0 auto;
     margin-top: 20px;
     padding:10px;
     font-size: 18px;
     width: fit-content;
-    background-color: #fff;
+    background-color: #f5f2ed;
     border: none;
     border-radius: 10px;
-
 }
 
-button:hover{
+.orderButton:hover{
     color: #f5f2ed;
     background-color: #889871;
     cursor:pointer;
