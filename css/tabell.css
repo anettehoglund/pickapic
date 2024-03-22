@@ -203,15 +203,16 @@ button{
     margin: 0 auto;
     margin-top: 20px;
     padding:10px;
+    font-size: 18px;
     width: fit-content;
     background-color: #fff;
     border: none;
+    border-radius: 10px;
 
 }
 
 button:hover{
     color: #f5f2ed;
-    background-color: #fa7e0a7f;
+    background-color: #889871;
     cursor:pointer;
-
 }
