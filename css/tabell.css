@@ -40,7 +40,7 @@ main{
     padding: 30px;
     padding-top: 0;
     border: 2px dotted #f5f2ed;
-    width: 100%;
+    max-width: 100%;
 }
 
 a{
@@ -127,7 +127,7 @@ footer{
 .orderDetails{
     display: block;
     margin: 0 auto;
-    width:800px;
+    max-width:800px;
     padding: 15px;
     background-color: #fff;
     font-size: 12px;
@@ -142,7 +142,6 @@ footer{
     display: inline-block;
     margin-right: 40px;
 }
-
 
 
 .frames, .poster{
@@ -166,15 +165,15 @@ footer{
 }
 
 .storlek1{
-    margin-top: 77px;
+    margin-top: 92px;
 }
 
 .storlek2{
-    margin-top: 112px;
+    margin-top: 130px;
 }
 
 .storlek3{
-    margin-top: 150px;
+    margin-top: 169px;
 }
 
 .frameCheck{
@@ -222,4 +221,63 @@ input{
     color: #f5f2ed;
     background-color: #889871;
     cursor:pointer;
+}
+
+/*extra*/
+@media only screen and (max-width: 900px) {
+.orderDetails img{
+        width: 40px;
+        height: 50px;
+}
+
+.storlek1, .storlek2, .storlek3{
+    font-size: 8px;
+}
+
+.storlek1{
+    margin-top: 68px;
+}
+
+.storlek2{
+    margin-top: 105px;
+}
+
+.storlek3{
+    margin-top: 144px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+h1{
+    font-size: 20px;
+}
+
+.logga{
+    width: 120px;
+    height: 70px;
+}
+
+.orderDetails img{
+        width: 30px;
+        height: 40px;
+}
+
+label{
+    font-size: 10px;
+}
+
+.storlek1{
+    margin-top: 58px;
+}
+
+.storlek2{
+    margin-top: 95px;
+}
+
+.storlek3{
+    margin-top: 134px;
+}
+
+.frames{
+    margin-left: 30px;
 }

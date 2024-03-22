@@ -167,3 +167,11 @@ footer{
     font-size: 18px;
     color: #896A65;
 }
+
+@media only screen and (max-width: 900px) {
+    .poster, .product, .product1{
+        width:100px;
+    }
+
+
+}

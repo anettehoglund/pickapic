@@ -227,7 +227,6 @@ button:hover{
 }
 
 .lathund{
-    display: inline-block;
     width: 300px;
     height: 450px;
     float: right;
@@ -235,7 +234,6 @@ button:hover{
 }
 
 .profil{
-    display: inline-block;
     float: center;
     width: 150px;
     height: 150px;
@@ -277,4 +275,11 @@ button:hover{
     width: 300px;
     height:280px;
     
+}
+
+/*extra*/
+
+@media only screen and (max-width: 900px) {
+    
+
 }
