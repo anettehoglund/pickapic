@@ -70,6 +70,7 @@ h6{
     direction: row;
     border-radius: 15px;
     text-align: center;
+    margin: 0px 50px;
 }
 
 
@@ -124,7 +125,7 @@ nav li:hover{
     list-style: none;
     display: inline-flex;
     justify-content: right;
-    margin-right: 25px;
+    margin-right: 60px;
 }
 
 .choose li{
@@ -219,6 +220,33 @@ button:hover{
     background-color: #fa7e0a7f;
     cursor:pointer;
 }
+.orderList{
+    font-size: 12px;
+    margin-top: 100px;
+}
+
+.lathund{
+    display: inline-block;
+    width: 300px;
+    height: 450px;
+    float: right;
+    margin-top: -60px;
+}
+
+.profil{
+    display: inline-block;
+    float: center;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    border: solid 1px #000;
+}
+
+.info{
+    font-size: 13px;
+}
+
 
 /*thanks*/
 
