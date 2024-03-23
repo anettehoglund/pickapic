@@ -147,13 +147,20 @@ footer{
 .frames, .poster{
     display: inline-block;
     margin: 0 auto;
-    text-align: center;
-    margin:5px;
+    text-align: center; 
 }
 
 .frames{
     margin-left: 40px;
 }
+
+.frames1{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 40px;
+}
+
 
 .storlek1, .storlek2, .storlek3{
     text-align: left;
@@ -230,6 +237,10 @@ input{
         height: 50px;
 }
 
+.frames1{
+    margin-left: 10px;
+}
+
 .storlek1, .storlek2, .storlek3{
     font-size: 8px;
 }
@@ -260,6 +271,47 @@ h1{
 .orderDetails img{
         width: 30px;
         height: 40px;
+}
+
+label{
+    font-size: 10px;
+}
+
+.storlek1{
+    margin-top: 58px;
+}
+
+.storlek2{
+    margin-top: 95px;
+}
+
+.storlek3{
+    margin-top: 134px;
+}
+
+.frames{
+    margin-left: 30px;
+}
+}
+
+@media only screen and (max-width: 450px) {
+h1{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.logga{
+    width: 120px;
+    height: 70px;
+}
+
+.orderDetails img{
+        width: 30px;
+        height: 40px;
+}
+
+.frames1{
+    margin-left: 0px;
 }
 
 label{
