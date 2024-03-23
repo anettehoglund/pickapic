@@ -276,6 +276,10 @@ button:hover{
 
 /*extra*/
 @media only screen and (max-width: 900px) {
+.headContainer{
+    justify-content: left;
+}
+
 h6{
     font-size: 8px;
 }
@@ -293,6 +297,7 @@ h6{
     width: 200px;
     height: 100px;
     margin-bottom: -20px;
+    float: left;
 }
 
 .news{
@@ -385,6 +390,16 @@ nav{
 button{
     font-size: 12px;
 }
+
+.profil{
+    width: 100px;
+    height: 100px;
+}
+
+.info{
+    font-size: 11px;
+}
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -491,5 +506,14 @@ main p{
     font-size: 6px;
     margin-top: 0px;
     margin-right: 0px;
+}
+
+.profil{
+    width: 60px;
+    height: 60px;
+}
+
+.info{
+    font-size: 10px;
 }
 }
