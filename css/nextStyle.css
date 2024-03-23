@@ -178,6 +178,10 @@ footer{
     width: 100px;
 }
 
+.poster{
+    width:120px;
+}
+
 .logga2{
     width: 200px;
     height: 100px;
@@ -197,6 +201,15 @@ h1{
 .product1{
     width: 60px;
     margin: 10px;
+}
+
+.product{
+    width: 120px;
+}
+
+.poster{
+    width: 100px;
+    margin: 8px;
 }
 
 .logga2{
@@ -220,12 +233,35 @@ h1{
     font-size: 12px;
 }
 
+main a{
+    font-size: 12px;
+}
+
+.themeLink{
+    font-size: 8px;
+    padding: 5px;
+}
+
+.orderToday{
+    font-size: 6px;
+    height: 10px;
+}
+
 .orderToday{
     font-size: 6px;
 }
 
 .product1{
     width: 50px;
+    margin: 5px;
+}
+
+.product{
+    width: 70px;
+}
+
+.poster{
+    width: 60px;
     margin: 5px;
 }
 
@@ -251,14 +287,32 @@ h1{
     font-size: 12px;
 }
 
+main a{
+    font-size: 12px;
+}
+
+.themeLink{
+    font-size: 8px;
+    padding: 5px;
+}
+
 .orderToday{
     font-size: 6px;
     height: 10px;
 }
 
 .product1{
-    width: 30px;
+    width: 50px;
     margin: 5px;
+}
+
+.product{
+    width: 50px;
+}
+
+.poster{
+    width: 40px;
+    margin: 0px;
 }
 
 .logga2{
