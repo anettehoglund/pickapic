@@ -168,10 +168,80 @@ footer{
     color: #896A65;
 }
 
+/*extra*/
 @media only screen and (max-width: 900px) {
-    .poster, .product, .product1{
-        width:100px;
-    }
+.orderToday{
+    font-size: 11px;
+}
 
+.product1{
+    width: 100px;
+}
 
+.logga2{
+    width: 200px;
+    height: 100px;
+    margin-bottom: -20px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+h1{
+    font-size: 18px;
+}
+
+.orderToday{
+    font-size: 8px;
+}
+
+.product1{
+    width: 60px;
+    margin: 10px;
+}
+
+.logga2{
+    width: 200px;
+    height: 100px;
+    margin-bottom: -20px;
+}
+
+.choose{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+nav{
+    font-size: 11px;
+}
+}
+
+@media only screen and (max-width: 520px) {
+h1{
+    font-size: 12px;
+}
+
+.orderToday{
+    font-size: 6px;
+}
+
+.product1{
+    width: 50px;
+    margin: 5px;
+}
+
+.logga2{
+    width: 150px;
+    height: 80px;
+    margin-bottom: -20px;
+}
+
+.choose{
+    font-size: 10px;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+nav{
+    font-size: 11px;
+}
 }
