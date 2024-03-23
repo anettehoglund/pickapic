@@ -3,7 +3,7 @@ body{
     font-optical-sizing: auto;
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 10px;
     background-color: #f5f2ed;
     max-width: 100%;
 }
@@ -34,7 +34,6 @@ h1{
     height: 150px;
     margin-top: 30px;
 }
-
 
 .news{
     background-color: #2f491e;
@@ -278,23 +277,213 @@ button:hover{
 }
 
 /*extra*/
-
 @media only screen and (max-width: 900px) {
+h6{
+    font-size: 8px;
+}
+
+.orderToday{
+    font-size: 11px;
+}
+
+.logga{
+    width: 250px;
+    height: 180px;
+}
+
+.logga2{
+    width: 200px;
+    height: 100px;
+    margin-bottom: -20px;
+}
+
+.news{
+    width:50px;
+    height: 50px;
+    margin-left: -20px;
+    border: 5px dashed #f5f2ed;
+}
+
+.news h2{
+    font-size: 12px;
+    font-weight: bold;
+}
+
 .start1{
-    width: 100px;
+    width: 80px;
 }
 
 .start2, .start3{
-    width: 150px;
+    width: 110px;
 }
 
 .start4{
-    width: 95px;
-    margin-bottom: 23px;
+    width: 65px;
+    margin-bottom: 15px;
 }
 
 .startpil{
     width: 60px;
 }
 
+button{
+    font-size: 12px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+body{
+    margin: 10px;
+}
+
+h1{
+    font-size: 14px;
+}
+
+main{
+    padding: 10px;
+}
+
+main p{
+    font-size: 12px;
+}
+
+.orderToday{
+    font-size: 8px;
+}
+
+.logga2{
+    width: 200px;
+    height: 100px;
+    margin-bottom: -20px;
+}
+
+.choose{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+nav{
+    font-size: 11px;
+}
+
+.start1{
+    width: 60px;
+}
+
+.start2, .start3{
+    width: 80px;
+}
+
+.start4{
+    width: 55px;
+    margin-bottom: 10px;
+}
+
+.startpil{
+    width: 40px;
+}
+
+button{
+    font-size: 12px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+h1{
+    font-size: 12px;
+}
+
+h6{
+    font-size: 5px;
+}
+
+.orderToday{
+    font-size: 6px;
+    height: 10px;
+}
+
+.logga{
+    width: 180px;
+    height: 100px;
+}
+
+.logga2{
+    width: 150px;
+    height: 80px;
+    margin-bottom: -20px;
+}
+
+.choose{
+    font-size: 10px;
+    margin-top: 5px;
+    justify-content: center;
+    margin-right: 0px;
+}
+
+.news{
+    width:30px;
+    height: 30px;
+    margin-left: -20px;
+    border: 2px dashed #f5f2ed;
+}
+
+.news h2{
+    font-size: 9px;
+    padding:0px;
+    font-weight: lighter;
+}
+
+nav{
+    font-size: 11px;
+}
+.start1{
+    width: 40px;
+}
+
+.start2, .start3{
+    width: 50px;
+}
+
+.start4{
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.startpil{
+    width: 20px;
+}
+
+button{
+    font-size: 10px;
+}
+
+}
+
+@media only screen and (max-width: 450px){
+h1{
+    font-size: 9px;
+}
+
+main p{
+    font-size: 10px;
+}
+
+.orderToday{
+    font-size: 4px;
+    height: 8px;
+}
+
+
+.logga2{
+    width: 100px;
+    height: 50px;
+    margin-bottom: -20px;
+}
+
+.choose{
+    font-size: 6px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
 }
