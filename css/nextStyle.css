@@ -3,7 +3,7 @@ body{
     font-optical-sizing: auto;
     display: flex;
     flex-direction: column;
-    margin: 40px;
+    margin: 10px;
     background-color: #f5f2ed;
     max-width: 100%;
 }
@@ -41,6 +41,7 @@ h6{
     direction: row;
     border-radius: 15px;
     text-align: center;
+    margin: 0px 10px;
 }
 
 

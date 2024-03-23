@@ -51,7 +51,6 @@ h1{
     margin-left: -60px;
 }
 
-
 .news h2{
  font-weight: lighter;
  font-size: 28px;
@@ -70,9 +69,8 @@ h6{
     direction: row;
     border-radius: 15px;
     text-align: center;
-    margin: 0px 50px;
+    margin: 0px 10px;
 }
-
 
 main{
     position:relative;
@@ -458,11 +456,19 @@ button{
     font-size: 10px;
 }
 
+li{
+    line-height: 15px;
+}
+
 }
 
 @media only screen and (max-width: 450px){
 h1{
     font-size: 9px;
+}
+
+main{
+width: 440px;
 }
 
 main p{
