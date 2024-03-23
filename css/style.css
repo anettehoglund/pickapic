@@ -210,7 +210,6 @@ button{
     background-color: #889871;
     border: #000;
     border-radius: 10px;
-
 }
 
 button:hover{
@@ -218,6 +217,7 @@ button:hover{
     background-color: #fa7e0a7f;
     cursor:pointer;
 }
+
 .orderList{
     font-size: 12px;
     margin-top: 100px;
@@ -400,6 +400,16 @@ button{
     font-size: 11px;
 }
 
+.lathund{
+    width: 180px;
+    height: 320px;
+    margin-top: -10px;
+}
+
+.orderList{
+    font-size: 11px;
+    margin-top: 30px;
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -450,6 +460,7 @@ h6{
 nav{
     font-size: 11px;
 }
+
 .start1{
     width: 40px;
 }
@@ -475,6 +486,11 @@ li{
     line-height: 15px;
 }
 
+.lathund{
+    width: 150px;
+    height: 250px;
+    margin-top: 0px;
+}
 }
 
 @media only screen and (max-width: 450px){
@@ -515,5 +531,15 @@ main p{
 
 .info{
     font-size: 10px;
+}
+
+.lathund{
+    width: 100px;
+    height: 150px;
+    margin-top: 0px;
+}
+
+.orderList{
+    font-size: 7.5px;
 }
 }
