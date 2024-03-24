@@ -137,7 +137,7 @@ nav strong:hover{
     margin-top: 10px;
     padding: 10px;
     padding-bottom: 0px;
-    margin-bottom: -2px;
+    margin-bottom: -16px;
     border-radius: 5px;
     font-weight: lighter;
 }
@@ -457,6 +457,10 @@ h6{
     margin-right: 0px;
 }
 
+.choose li{
+    margin-bottom: -12px;
+}
+
 .news{
     width:30px;
     height: 30px;
@@ -534,6 +538,11 @@ main p{
     font-size: 6px;
     margin-top: 0px;
     margin-right: 0px;
+    font-size: 5px;
+}
+
+.choose li{
+    margin-bottom: -6px;
 }
 
 .profil{
@@ -558,9 +567,8 @@ main p{
 nav{
     font-size: 8px;
 }
-
 li{
-    line-height: 10px;
+   line-height: 10px; 
 }
 }
 
@@ -586,5 +594,10 @@ li{
     width:80px;
     height: 120px;
 }
+
+.choose li{
+    margin-bottom: -4px;
+    font-size: 4px;
+    margin-top: 0px;
 
 }
