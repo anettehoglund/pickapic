@@ -248,6 +248,7 @@ button:hover{
 
 .thanksContainer{
     background-color: #fff;
+    position: relative;
     justify-content: center;
     margin-top: 50px;
     max-width: 900px;
@@ -409,13 +410,13 @@ button{
 }
 
 .thanksContainer{
-    max-width: 500px;
     font-size: 12px;
+    justify-content: center;
 }
 
 .package{
-    width: 20px;
-    height:80px;
+    width: 100px;
+    height: 80px;
 }
 }
 
