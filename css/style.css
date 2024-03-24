@@ -131,7 +131,7 @@ nav li:hover{
     margin-left: 20px;
     margin-top: 10px;
     padding: 10px;
-    padding-bottom: 0;
+    padding-bottom: 0px;
     margin-bottom: -2px;
     border-radius: 5px;
     font-weight: lighter;
@@ -248,12 +248,9 @@ button:hover{
 
 .thanksContainer{
     background-color: #fff;
-    display: block;
-    margin: 0 auto;
     justify-content: center;
     margin-top: 50px;
-    width: 700px;
-    height: 500px;
+    max-width: 900px;
     border-radius: 15px;
 }
 
@@ -269,8 +266,8 @@ button:hover{
 .package{
     display: block;
     margin: 0 auto;
-    width: 300px;
-    height:280px;
+    width: 200px;
+    height:180px;
     
 }
 
@@ -409,6 +406,16 @@ button{
 .orderList{
     font-size: 11px;
     margin-top: 30px;
+}
+
+.thanksContainer{
+    max-width: 500px;
+    font-size: 12px;
+}
+
+.package{
+    width: 20px;
+    height:80px;
 }
 }
 
