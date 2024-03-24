@@ -114,9 +114,20 @@ nav ul{
     margin-top: -1px;
 }
 
-nav strong:hover{
-    transition:ease-in-out;
-    transform: scale(1.1);
+.pic:hover{
+    color:#889871;
+}
+
+.home:hover{
+    color:#889871
+}
+
+.prod:hover{
+    color:#889871;
+}
+
+.order:hover{
+    color:#889871;
 }
 
 .choose{
