@@ -1,6 +1,5 @@
 body{
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -300,7 +299,22 @@ nav{
 }  
 
 li{
-    line-height: 15px;
+    line-height: 10px;
+}
 }
 
+@media only screen and (max-width: 300px){
+.themeLink{
+    font-size: 7px;
+    padding: 0px;
+}
+
+.product1{
+    width: 30px;
+    margin: 0px;
+}
+
+.product{
+    width: 40px;
+}
 }

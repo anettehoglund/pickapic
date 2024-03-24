@@ -511,7 +511,6 @@ main p{
     height: 8px;
 }
 
-
 .logga2{
     width: 100px;
     height: 50px;
@@ -542,4 +541,37 @@ main p{
 .orderList{
     font-size: 7.5px;
 }
+
+nav{
+    font-size: 8px;
+}
+
+li{
+    line-height: 10px;
+}
+}
+
+@media only screen and (max-width: 300px){
+.logga2{
+    width: 80px;
+    height: 35px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.profil{
+    width:40px;
+    height:40px;
+    margin: 0px;
+}
+
+.info{
+    font-size: 6px;
+}
+
+.lathund{
+    width:80px;
+    height: 120px;
+}
+
 }

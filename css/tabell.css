@@ -134,8 +134,13 @@ footer{
 }
 
 .orderDetails img{
-    width: 65px;
-    height: 75px;
+    width: 80px;
+    height: 70px;
+}
+
+.orderDetails img:hover{
+    transition:ease-in-out;
+    transform: scale(2);
 }
 
 .products{
@@ -148,6 +153,11 @@ footer{
     display: inline-block;
     margin: 0 auto;
     text-align: center; 
+}
+
+.poster img:hover{
+    transition:ease-in-out;
+    transform: scale(2);
 }
 
 .frames{
@@ -333,5 +343,32 @@ label{
 
 .frames{
     margin-left: 30px;
+}
+}
+
+
+@media only screen and (max-width: 300px){
+legend{
+        font-size: 9px;
+    }
+
+fieldset{
+        font-size: 2px;
+    }
+
+.storlek1, .storlek2, .storlek3{
+    font-size: 6px;
+}
+
+.storlek1{
+    margin-top: 52px;
+}
+
+.storlek2{
+    margin-top: 88px;
+}
+
+.storlek3{
+    margin-top: 125px;
 }
 }
