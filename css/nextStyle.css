@@ -22,7 +22,7 @@ h6{
 
 .headContainer{
     display: flex;
-    direction: row;
+    flex-direction: row;
     border-radius: 30px;
     max-width: 100%;
     justify-content: left;
@@ -37,7 +37,7 @@ h6{
 .mainContainer{
     background-color: #fff;
     display: flex;
-    direction: row;
+    flex-direction: row;
     border-radius: 15px;
     text-align: center;
     margin: 0px 10px;
@@ -45,13 +45,13 @@ h6{
 
 
 main{
-    position:relative;
+    justify-content: center;
     background-color: #fff;
     margin: 10px;
     padding: 10px;
     padding-top: 0;
     border: 2px dotted #f5f2ed;
-    max-width: 100%;
+    width: 100%;
 }
 
 a{
@@ -74,7 +74,6 @@ nav {
     margin-top: 50px;
     list-style: none;
     width: 100px;
-    font-style: bold;
 }
 
 nav ul{
@@ -104,7 +103,7 @@ nav li:hover{
     margin-top: 10px;
     padding: 10px;
     padding-bottom: 0px;
-    margin-bottom: -8px;
+    margin-bottom: -16px;
     border-radius: 5px;
     font-weight: lighter;
 }
@@ -115,7 +114,6 @@ nav li:hover{
 }
 
 .orderToday{
-    justify-content: baseline;
     margin-top: 30px;
     padding: 5px;
     background-color: #fa7e0a7f;
@@ -149,10 +147,9 @@ footer{
 
 .product1{
     width: 150px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 15px;
 }
-
 
 .poster{
     width: 200px;
@@ -309,6 +306,10 @@ li{
     padding: 0px;
 }
 
+.orderToday{
+    font-size: 5px;
+}
+
 .product1{
     width: 30px;
     margin: 0px;
@@ -316,5 +317,15 @@ li{
 
 .product{
     width: 40px;
+}
+
+.choose{
+    font-size: 4px;
+    margin-right: 0px;
+}
+
+.choose li{
+    margin-bottom: -6px;
+    margin-left: 10px;
 }
 }

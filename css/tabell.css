@@ -1,6 +1,5 @@
 body{
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -23,6 +22,10 @@ h3{
     font-size: 13px;
 }
 
+h3 em{
+    font-size: 8px;
+}
+
 .logga{
     display: flex;
     position: absolute;
@@ -35,7 +38,7 @@ h3{
 .mainContainer{
     background-color: #fff;
     display: flex;
-    direction: row;
+    flex-direction: row;
     border-radius: 15px;
     text-align: center;
 }
@@ -71,7 +74,7 @@ nav {
     margin-top: 50px;
     list-style: none;
     width: 100px;
-    font-style: bold;
+    font-weight: bold;
 }
 
 nav ul{

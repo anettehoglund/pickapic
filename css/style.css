@@ -1,6 +1,5 @@
 body{
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -15,12 +14,12 @@ h1{
 
 
 picture{
-    width: 100w;
+    width: 100px;
 }
 
 .headContainer{
     display: flex;
-    direction: row;
+    flex-direction: row;
     border-radius: 30px;
     max-width: 100%;
     justify-content: center;
@@ -45,7 +44,7 @@ picture{
     width: 100px;
     height: 100px;
     font-size: 11px;
-    font-weight: light;
+    font-weight: lighter;
     color:#f5f2ed;
     margin: 20px;
     text-align: center;
@@ -71,7 +70,7 @@ h6{
 .mainContainer{
     background-color: #fff;
     display: flex;
-    direction: row;
+    flex-direction: row;
     border-radius: 15px;
     text-align: center;
     margin: 0px 10px;
@@ -107,7 +106,6 @@ nav {
     margin-top: 50px;
     list-style: none;
     width: 100px;
-    font-style: bold;
 }
 
 nav ul{
@@ -236,7 +234,6 @@ footer{
 }
 
 .profil{
-    float: center;
     width: 150px;
     height: 150px;
     margin: 10px;
@@ -454,8 +451,8 @@ h6{
     font-size: 10px;
     margin-top: 5px;
     justify-content: center;
-    margin-right: 0px;
 }
+
 
 .choose li{
     margin-bottom: -12px;
@@ -595,9 +592,10 @@ li{
     height: 120px;
 }
 
-.choose li{
-    margin-bottom: -4px;
+.choose{
     font-size: 4px;
-    margin-top: 0px;
-
+    justify-content: center;
+    margin-right: 0px;
 }
+}
+
