@@ -13,6 +13,7 @@ h1{
     font-weight: 400;
 }
 
+
 picture{
     width: 100w;
 }
@@ -91,7 +92,7 @@ a{
     color:#000;
 }
 
-nav a{
+li{
     font-weight: bold;
     line-height: 25px;
 }
@@ -115,7 +116,7 @@ nav ul{
     margin-top: -1px;
 }
 
-nav li:hover{
+nav strong:hover{
     transition:ease-in-out;
     transform: scale(1.1);
 }
@@ -204,7 +205,7 @@ footer{
     width: 85px;
 }
 
-button{
+#button{
     display: block;
     margin: 0 auto;
     margin-top: 50px;
@@ -216,7 +217,7 @@ button{
     border-radius: 10px;
 }
 
-button:hover{
+#button:hover{
     color: #f5f2ed;
     background-color: #fa7e0a7f;
     cursor:pointer;
