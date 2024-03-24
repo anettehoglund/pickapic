@@ -12,6 +12,14 @@ h1{
     font-weight: 400;
 }
 
+
+h6{
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+
 .headContainer{
     display: flex;
     direction: row;
@@ -20,18 +28,10 @@ h1{
     justify-content: left;
 }
 
-
 .logga2{
     width: 400px;
     height: 230px;
     margin-bottom: -20px;
-}
-
-
-h6{
-    font-weight: lighter;
-    font-size: 12px;
-    margin-top: 0;
 }
 
 .mainContainer{
@@ -40,18 +40,18 @@ h6{
     direction: row;
     border-radius: 15px;
     text-align: center;
-    margin: 0px 10px;
+    margin: 10px;
 }
 
 
 main{
     position:relative;
     background-color: #fff;
-    margin: 20px;
-    padding: 30px;
+    margin: 10px;
+    padding: 10px;
     padding-top: 0;
     border: 2px dotted #f5f2ed;
-    width: 100%;
+    max-width: 100%;
 }
 
 a{
